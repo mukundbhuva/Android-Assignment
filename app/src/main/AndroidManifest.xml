@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.assignment">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChatApp">
+        <activity
+            android:name="com.assignment.TripActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.assignment.AgeCalculatorActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.assignment.ColourActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.assignment.LotteryActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.assignment.BtoH_Conversion"
+            android:exported="true" />
+        <activity
+            android:name="com.assignment.UserChatActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.assignment.UpdateProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.assignment.RegistrationActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.assignment.Home"
+            android:exported="true" />
+        <activity
+            android:name="com.assignment.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.assignment.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

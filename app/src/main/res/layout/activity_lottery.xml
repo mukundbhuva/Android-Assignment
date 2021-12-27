@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LotteryActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="6dp"
+        android:text="Enter 6 digit number"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/num1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:maxLength="1"
+            android:padding="3dp" />
+
+        <EditText
+            android:id="@+id/num2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:maxLength="1"
+            android:padding="3dp" />
+
+        <EditText
+            android:id="@+id/num3"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:maxLength="1"
+            android:padding="3dp" />
+
+        <EditText
+            android:id="@+id/num4"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:maxLength="1"
+            android:padding="3dp" />
+
+        <EditText
+            android:id="@+id/num5"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:maxLength="1"
+            android:padding="3dp" />
+
+        <EditText
+            android:id="@+id/num6"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:maxLength="1"
+            android:padding="3dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:background="@color/design_default_color_primary_dark"
+        android:onClick="check"
+        android:text="Check" />
+
+    <TextView
+        android:id="@+id/ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="30dp" />
+
+</LinearLayout>
